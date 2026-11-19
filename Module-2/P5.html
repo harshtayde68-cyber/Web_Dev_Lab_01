@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semantic Bio page</title>
+  <link rel="stylesheet" href="p5.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="#top">Harsh Tayde</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="top" class="page-layout">
+    <article class="bio-card" aria-labelledby="bio-title">
+      <p class="eyebrow">A little introduction</p>
+      <h1 id="bio-title">Hello, I’m <span>Harsh Tayde.</span></h1>
+      <p class="lead">
+        I’m a student who enjoys learning,
+        making things, and solving interesting problems.
+      </p>
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About me</h2>
+        <p>
+            I’m currently learning HTML and CSS, and I’m excited to build
+            more web pages in the future. I enjoy exploring new technologies
+            and finding creative ways to apply them.
+        </p>
+        <h1>My Skills</h1>
+      </section>
+      <section id="interests" aria-labelledby="interests-title">
+        <h2 id="interests-title">A few things I enjoy</h2>
+        <ul class="interest-list">
+          <li>Learning new skills</li>
+          <li>Creating and sharing ideas</li>
+          <li>Spending time outdoors</li>
+        </ul>
+      </section>
+      <section id="contact" class="contact-section"
+               aria-labelledby="contact-title">
+        <h2 id="contact-title">Get in touch</h2>
+        <p>Have a question or want to say hello?</p>
+        <a class="contact-link" href="mailto:harshtayde@gmail.com">
+          harshtayde@gmail.com <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </article>
+    <aside class="profile-note" aria-label="Profile details">
+      <div class="avatar" aria-hidden="true">HT</div>
+      <p class="profile-label">Currently</p>
+      <p class="profile-value">Learning HTML &amp; CSS</p>
+      <hr>
+      <p class="profile-label">Based in</p>
+      <p class="profile-value">Bengluru</p>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <P>© 2026 Harsh Tayde. All rights reserved.</P>
+  </footer>
+</body>
+</html> 
